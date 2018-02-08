@@ -1,3 +1,5 @@
+[![devDependency Status](https://david-dm.org/boennemann/badges/dev-status.svg)](https://david-dm.org/boennemann/badges#info=devDependencies)
+
 # Simple Webpack Library Boilerplate
 This is a starter boilerplate for writing javascript libraries. It uses [Webpack](https://webpack.js.org/) as a bundler and [Jest](https://facebook.github.io/jest/) as a testing tool.
 

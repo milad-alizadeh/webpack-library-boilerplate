@@ -3,7 +3,7 @@
         "transform-object-rest-spread",
         ["transform-runtime"]
     ],
-    "presets": ["env"],
+    "presets": ["flow"],
     "env": {
         "test": {
             "presets": [

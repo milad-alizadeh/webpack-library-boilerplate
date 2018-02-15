@@ -18,14 +18,14 @@ module.exports = {
         'jest'
     ],
     // add your custom rules here
-    'rules': {
+    rules: {
         // allow paren-less arrow functions,
         'no-new': 0,
         'arrow-parens': 0,
-        "indent": ["error", 4],
-        "space-before-function-paren": 0,
-        "semi": [2, "always"],
-        "quotes": ["error", "single"],
+        'indent': ['error', 4],
+        'space-before-function-paren': 0,
+        'semi': [2, 'always'],
+        'quotes': ['error', 'single'],
         // allow async-await
         'generator-star-spacing': 0,
         // allow debugger during development
@@ -35,4 +35,4 @@ module.exports = {
         'jest/no-identical-title': 'error',
         'jest/valid-expect': 'error'
     }
-}
+};

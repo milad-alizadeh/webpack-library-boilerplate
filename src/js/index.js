@@ -1,8 +1,10 @@
+// @flow
+
 // Optional styling for library - This will compile to a css file in dist folder
 import '../scss/style.scss';
 
 export default class {
-    constructor(name) {
+    constructor(name: string) {
         let messageContainer = document.querySelector('.message');
 
         if (messageContainer) {
@@ -10,7 +12,7 @@ export default class {
         }
     }
 
-    sayHello(name) {
+    sayHello(name: string): string {
         return `Hi ${name}`;
     }
 }
